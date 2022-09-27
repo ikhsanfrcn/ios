@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461B71BC28E191D900C4EBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71BB28E191D900C4EBAB /* AppDelegate.swift */; };
+		461B71BE28E191D900C4EBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71BD28E191D900C4EBAB /* SceneDelegate.swift */; };
+		461B71C028E191D900C4EBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71BF28E191D900C4EBAB /* ViewController.swift */; };
+		461B71C328E191D900C4EBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461B71C128E191D900C4EBAB /* Main.storyboard */; };
+		461B71C528E191D900C4EBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461B71C428E191D900C4EBAB /* Assets.xcassets */; };
+		461B71C828E191D900C4EBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461B71C628E191D900C4EBAB /* LaunchScreen.storyboard */; };
+		461B71D328E191DA00C4EBAB /* TidingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71D228E191DA00C4EBAB /* TidingsTests.swift */; };
+		461B71DD28E191DA00C4EBAB /* TidingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71DC28E191DA00C4EBAB /* TidingsUITests.swift */; };
+		461B71DF28E191DA00C4EBAB /* TidingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71DE28E191DA00C4EBAB /* TidingsUITestsLaunchTests.swift */; };
+		461B71EC28E1938F00C4EBAB /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71EB28E1938F00C4EBAB /* APIData.swift */; };
+		461B71EE28E1A28400C4EBAB /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B71ED28E1A28400C4EBAB /* NewsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461B71CF28E191DA00C4EBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461B71B028E191D900C4EBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461B71B728E191D900C4EBAB;
+			remoteInfo = Tidings;
+		};
+		461B71D928E191DA00C4EBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461B71B028E191D900C4EBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461B71B728E191D900C4EBAB;
+			remoteInfo = Tidings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461B71B828E191D900C4EBAB /* Tidings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B71BB28E191D900C4EBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461B71BD28E191D900C4EBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		461B71BF28E191D900C4EBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461B71C228E191D900C4EBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461B71C428E191D900C4EBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461B71C728E191D900C4EBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461B71C928E191D900C4EBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461B71CE28E191DA00C4EBAB /* TidingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B71D228E191DA00C4EBAB /* TidingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidingsTests.swift; sourceTree = "<group>"; };
+		461B71D828E191DA00C4EBAB /* TidingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B71DC28E191DA00C4EBAB /* TidingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidingsUITests.swift; sourceTree = "<group>"; };
+		461B71DE28E191DA00C4EBAB /* TidingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		461B71EB28E1938F00C4EBAB /* APIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
+		461B71ED28E1A28400C4EBAB /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461B71B528E191D900C4EBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71CB28E191DA00C4EBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71D528E191DA00C4EBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461B71AF28E191D900C4EBAB = {
+			isa = PBXGroup;
+			children = (
+				461B71BA28E191D900C4EBAB /* Tidings */,
+				461B71D128E191DA00C4EBAB /* TidingsTests */,
+				461B71DB28E191DA00C4EBAB /* TidingsUITests */,
+				461B71B928E191D900C4EBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461B71B928E191D900C4EBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461B71B828E191D900C4EBAB /* Tidings.app */,
+				461B71CE28E191DA00C4EBAB /* TidingsTests.xctest */,
+				461B71D828E191DA00C4EBAB /* TidingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461B71BA28E191D900C4EBAB /* Tidings */ = {
+			isa = PBXGroup;
+			children = (
+				461B71BB28E191D900C4EBAB /* AppDelegate.swift */,
+				461B71BD28E191D900C4EBAB /* SceneDelegate.swift */,
+				461B71BF28E191D900C4EBAB /* ViewController.swift */,
+				461B71C128E191D900C4EBAB /* Main.storyboard */,
+				461B71C428E191D900C4EBAB /* Assets.xcassets */,
+				461B71C628E191D900C4EBAB /* LaunchScreen.storyboard */,
+				461B71C928E191D900C4EBAB /* Info.plist */,
+				461B71EB28E1938F00C4EBAB /* APIData.swift */,
+				461B71ED28E1A28400C4EBAB /* NewsTableViewCell.swift */,
+			);
+			path = Tidings;
+			sourceTree = "<group>";
+		};
+		461B71D128E191DA00C4EBAB /* TidingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				461B71D228E191DA00C4EBAB /* TidingsTests.swift */,
+			);
+			path = TidingsTests;
+			sourceTree = "<group>";
+		};
+		461B71DB28E191DA00C4EBAB /* TidingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461B71DC28E191DA00C4EBAB /* TidingsUITests.swift */,
+				461B71DE28E191DA00C4EBAB /* TidingsUITestsLaunchTests.swift */,
+			);
+			path = TidingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461B71B728E191D900C4EBAB /* Tidings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B71E228E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "Tidings" */;
+			buildPhases = (
+				461B71B428E191D900C4EBAB /* Sources */,
+				461B71B528E191D900C4EBAB /* Frameworks */,
+				461B71B628E191D900C4EBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidings;
+			productName = Tidings;
+			productReference = 461B71B828E191D900C4EBAB /* Tidings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461B71CD28E191DA00C4EBAB /* TidingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B71E528E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "TidingsTests" */;
+			buildPhases = (
+				461B71CA28E191DA00C4EBAB /* Sources */,
+				461B71CB28E191DA00C4EBAB /* Frameworks */,
+				461B71CC28E191DA00C4EBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461B71D028E191DA00C4EBAB /* PBXTargetDependency */,
+			);
+			name = TidingsTests;
+			productName = TidingsTests;
+			productReference = 461B71CE28E191DA00C4EBAB /* TidingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461B71D728E191DA00C4EBAB /* TidingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B71E828E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "TidingsUITests" */;
+			buildPhases = (
+				461B71D428E191DA00C4EBAB /* Sources */,
+				461B71D528E191DA00C4EBAB /* Frameworks */,
+				461B71D628E191DA00C4EBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461B71DA28E191DA00C4EBAB /* PBXTargetDependency */,
+			);
+			name = TidingsUITests;
+			productName = TidingsUITests;
+			productReference = 461B71D828E191DA00C4EBAB /* TidingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461B71B028E191D900C4EBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					461B71B728E191D900C4EBAB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					461B71CD28E191DA00C4EBAB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 461B71B728E191D900C4EBAB;
+					};
+					461B71D728E191DA00C4EBAB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 461B71B728E191D900C4EBAB;
+					};
+				};
+			};
+			buildConfigurationList = 461B71B328E191D900C4EBAB /* Build configuration list for PBXProject "Tidings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461B71AF28E191D900C4EBAB;
+			productRefGroup = 461B71B928E191D900C4EBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461B71B728E191D900C4EBAB /* Tidings */,
+				461B71CD28E191DA00C4EBAB /* TidingsTests */,
+				461B71D728E191DA00C4EBAB /* TidingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461B71B628E191D900C4EBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B71C828E191D900C4EBAB /* LaunchScreen.storyboard in Resources */,
+				461B71C528E191D900C4EBAB /* Assets.xcassets in Resources */,
+				461B71C328E191D900C4EBAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71CC28E191DA00C4EBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71D628E191DA00C4EBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461B71B428E191D900C4EBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B71C028E191D900C4EBAB /* ViewController.swift in Sources */,
+				461B71BC28E191D900C4EBAB /* AppDelegate.swift in Sources */,
+				461B71EE28E1A28400C4EBAB /* NewsTableViewCell.swift in Sources */,
+				461B71EC28E1938F00C4EBAB /* APIData.swift in Sources */,
+				461B71BE28E191D900C4EBAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71CA28E191DA00C4EBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B71D328E191DA00C4EBAB /* TidingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B71D428E191DA00C4EBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B71DD28E191DA00C4EBAB /* TidingsUITests.swift in Sources */,
+				461B71DF28E191DA00C4EBAB /* TidingsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461B71D028E191DA00C4EBAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461B71B728E191D900C4EBAB /* Tidings */;
+			targetProxy = 461B71CF28E191DA00C4EBAB /* PBXContainerItemProxy */;
+		};
+		461B71DA28E191DA00C4EBAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461B71B728E191D900C4EBAB /* Tidings */;
+			targetProxy = 461B71D928E191DA00C4EBAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461B71C128E191D900C4EBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461B71C228E191D900C4EBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461B71C628E191D900C4EBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461B71C728E191D900C4EBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461B71E028E191DA00C4EBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461B71E128E191DA00C4EBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461B71E328E191DA00C4EBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tidings/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.Tidings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461B71E428E191DA00C4EBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tidings/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.Tidings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461B71E628E191DA00C4EBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.TidingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tidings";
+			};
+			name = Debug;
+		};
+		461B71E728E191DA00C4EBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.TidingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tidings";
+			};
+			name = Release;
+		};
+		461B71E928E191DA00C4EBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.TidingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidings;
+			};
+			name = Debug;
+		};
+		461B71EA28E191DA00C4EBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifdigital.TidingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461B71B328E191D900C4EBAB /* Build configuration list for PBXProject "Tidings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B71E028E191DA00C4EBAB /* Debug */,
+				461B71E128E191DA00C4EBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B71E228E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "Tidings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B71E328E191DA00C4EBAB /* Debug */,
+				461B71E428E191DA00C4EBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B71E528E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "TidingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B71E628E191DA00C4EBAB /* Debug */,
+				461B71E728E191DA00C4EBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B71E828E191DA00C4EBAB /* Build configuration list for PBXNativeTarget "TidingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B71E928E191DA00C4EBAB /* Debug */,
+				461B71EA28E191DA00C4EBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461B71B028E191D900C4EBAB /* Project object */;
+}
